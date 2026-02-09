@@ -1,0 +1,12 @@
+# PICO-8 temporary files
+*.p8.bak
+*.p8.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
