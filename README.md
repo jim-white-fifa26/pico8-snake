@@ -13,10 +13,23 @@ A classic Snake game built for the [PICO-8](https://www.lexaloffle.com/pico-8.ph
 
 ## Running
 
+### With PICO-8 Desktop
+
 ```bash
-# If you have PICO-8 installed
 pico8 -run snake.p8
 ```
+
+### Without PICO-8 (Education Edition)
+
+A self-contained version is provided in `snake_edu.p8` that generates sprites and sound effects programmatically at runtime -- no manual sprite/SFX editor work needed.
+
+1. Open [pico-8-edu.com](https://www.pico-8-edu.com/)
+2. Click the code editor tab (top-left icon)
+3. Select all default code and delete it
+4. Copy the entire Lua section from `snake_edu.p8` (everything between `__lua__` and the end of the file) and paste it in
+5. Click the **Run** button (or press Ctrl+R)
+
+Controls: arrow keys to move, Z or X to start/restart.
 
 ## Features
 
@@ -35,6 +48,7 @@ pico8-snake/
 ├── PLAN.md          # Implementation plan
 ├── AGENTS.md        # AI agent notes
 ├── snake.p8         # Complete PICO-8 cartridge
+├── snake_edu.p8     # Education Edition (self-contained, paste-and-run)
 └── .tools/
     └── shrinko8/    # Linting & validation tool
 ```
