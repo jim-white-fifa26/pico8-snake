@@ -10,3 +10,10 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Local tools (cloned repos, not committed)
+.tools/
+
+# Python
+.venv/
+__pycache__/

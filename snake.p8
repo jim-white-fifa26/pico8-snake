@@ -132,7 +132,7 @@ end
 
 function food_spawn()
   local valid = false
-  for attempt = 1, 100 do
+  for _ = 1, 100 do
     food.x = flr(rnd(grid_w)) + 1
     food.y = flr(rnd(grid_h)) + 1
     valid = true
